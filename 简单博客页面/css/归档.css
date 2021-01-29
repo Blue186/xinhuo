@@ -1,0 +1,148 @@
+/*head*/
+@media screen and (min-width:1280px){
+    .container {
+        width: 1280px;
+        
+    }   
+   }
+.row:nth-child(1) span{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.a-a{
+    display: block;
+    line-height: 40px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+.a-box{
+    position: relative;
+    height: 50px;
+}
+.a-box1{
+    display: block;
+    position: absolute;
+    background-color: black;
+    height: 36px;
+    width: 60px;
+    margin-top: 7px;
+}
+.search-box{
+    display: block;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 10px;
+}
+.search{
+    height: 100%;
+    width: 180px;
+    border: 0;
+    border-radius: 2px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    float: left;
+    font-size: 14px;
+}
+.search-logo{
+    font-size: 16px;
+    padding-top: 5px;
+}    
+.row-back{
+    height: 50px;
+    width: 1280px;
+    background-color: rgb(34, 29, 85);
+}
+.row-back1{
+    height: 150px;
+    width: 1280px;
+    background-color: rgb(34, 29, 85);
+}
+
+/*mid*/
+.mid-box0{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 0;
+}
+.mid-box{
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.mid-num{
+    margin-top: 50px;
+    font-size: large;
+    text-align: center;
+}
+.mid-art{
+    border-top: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+.mid-art p{
+    font-size: 20px;
+    margin-left: 3px;
+}
+.art a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.art h3{
+    color: black;
+}
+.butt-box{
+    margin-top: 15px;
+}
+.butt{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid lightblue;
+    border-radius: 2px;
+    outline: none;
+}
+.butt-box1{
+    margin-top: 15px;
+}
+.butt1{
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 2px;
+    outline: none;
+}
+/*foot*/
+.QR{
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
+    margin-top: 35px;
+}
+.QR img{
+    height: 100%;
+    width: 100%;
+}
+.row-back1 h5{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+.row-back1 p{
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,147 @@
+/*head*/
+@media screen and (min-width:1280px){
+    .container {
+        width: 1280px;
+        
+    }   
+   }
+.row:nth-child(1) span{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.a-a{
+    display: block;
+    line-height: 40px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+.a-box{
+    position: relative;
+    height: 50px;
+}
+.a-box1{
+    display: block;
+    position: absolute;
+    background-color: black;
+    height: 36px;
+    width: 60px;
+    margin-top: 7px;
+}
+ 
+.row-back{
+    height: 50px;
+    width: 1280px;
+    background-color: rgb(34, 29, 85);
+}
+.row-back1{
+    height: 150px;
+    width: 1280px;
+    background-color: rgb(34, 29, 85);
+}
+.mid-box-img img{
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.mid-box-name p{
+    font-size: 15px;
+    color: black;
+    margin-top: 13px
+}
+.head-box{
+    height: 40px;
+    width: 1280px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.head-box p{
+    font-size: 15px;
+    height: 39px;
+    line-height: 40px;
+    text-align: center;
+}
+
+/*mid*/
+.mid-input{
+    height: 36px;
+    width: 100%;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 2px;
+}
+.mid-input1{
+    height: 300px;
+    width: 100%;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 2px;
+}
+.mid-input2{
+    height: 36px;
+    width: 100%;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 2px;
+    margin-left: -15px;
+}
+.mid-input3{
+    height: 36px;
+    width: 100%;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 2px;
+    margin-left: 15px;
+}
+.mid-input4{
+    height: 36px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 2px;
+    margin-left: 30px;
+    background-color: white;
+}
+.mid-input5{
+    height: 36px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 2px;
+    margin-left: 30px;
+    background-color: lightblue;
+}
+/*foot*/
+.QR{
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
+    margin-top: 35px;
+}
+.QR img{
+    height: 100%;
+    width: 100%;
+}
+.row-back1 h5{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+.row-back1 p{
+    text-align: center;
+    color: white;
+}

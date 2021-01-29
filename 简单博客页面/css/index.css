@@ -1,0 +1,171 @@
+/*head*/
+@media screen and (min-width:1280px){
+    .container {
+        width: 1280px;
+        
+    }   
+   }
+.row:nth-child(1) span{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.a-a{
+    display: block;
+    line-height: 40px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+.a-box{
+    position: relative;
+    height: 50px;
+}
+.a-box1{
+    display: block;
+    position: absolute;
+    background-color: black;
+    height: 36px;
+    width: 60px;
+    margin-top: 7px;
+}
+.search-box{
+    display: block;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 10px;
+}
+.search{
+    height: 100%;
+    width: 180px;
+    border: 0;
+    border-radius: 2px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    float: left;
+    font-size: 14px;
+}
+.search-logo{
+    font-size: 16px;
+    padding-top: 5px;
+}    
+.row-back{
+    height: 50px;
+    width: 1280px;
+    background-color: rgb(34, 29, 85);
+}
+.row-back1{
+    height: 150px;
+    width: 1280px;
+    background-color: rgb(34, 29, 85);
+}
+
+/*mid*/
+.art h3{
+    color: black;
+}
+.art p{
+    color: #cccccc;
+    width: 500px;
+    overflow: hidden;
+}
+.art a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.pic{
+    margin-top: 10px;
+}
+.mid-art{
+    border-top: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.mid-box{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.butt{
+    width: 60px;
+    height: 40px;
+    margin-bottom: 5px;
+    border: 1px solid lightblue;
+    background-color: white;
+}
+.mid-right-box{
+    margin-top: 25px;
+    width: 250px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 2px; 
+}
+.rig-box1{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ccc;
+}
+.rig-box1 p{
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+}
+.rig-box1 a{
+    text-align: center;
+    padding: 0;
+    margin-top: 10px;
+}
+.rig-box2{
+    width: 220px;
+    height: 220px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 0;
+}
+.rig-box2 li{
+    text-decoration: none;
+    list-style: none;
+    height: 36.66px;
+    line-height: 36.66px;
+}
+
+
+
+/*foot*/
+.QR{
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
+    margin-top: 35px;
+}
+.QR img{
+    height: 100%;
+    width: 100%;
+}
+.row-back1 h5{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+.row-back1 p{
+    text-align: center;
+    color: white;
+}
