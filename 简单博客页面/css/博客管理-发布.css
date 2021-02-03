@@ -2,9 +2,8 @@
 @media screen and (min-width:1280px){
     .container {
         width: 1280px;
-        
     }   
-   }
+}
 .row:nth-child(1) span{
     display: block;
     height: 50px;
@@ -35,12 +34,12 @@
  
 .row-back{
     height: 50px;
-    width: 1280px;
+    width: 100%;
     background-color: rgb(34, 29, 85);
 }
 .row-back1{
     height: 150px;
-    width: 1280px;
+    width: 100%;
     background-color: rgb(34, 29, 85);
 }
 .mid-box-img img{
@@ -57,7 +56,7 @@
 }
 .head-box{
     height: 40px;
-    width: 1280px;
+    width: 100%;
     border: 1px solid #ccc;
     border-radius: 2px;
 }
@@ -129,7 +128,7 @@
 .QR{
     height: 80px;
     width: 80px;
-    margin-left: 150px;
+    margin-left: 35%;
     margin-top: 35px;
 }
 .QR img{
@@ -138,7 +137,7 @@
 }
 .row-back1 h5{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     color: white;
 }
 .row-back1 p{

@@ -2,9 +2,65 @@
 @media screen and (min-width:1280px){
     .container {
         width: 1280px;
-        
     }   
    }
+@media screen and (max-width:991px){
+    /*head*/
+    .row-back{
+        margin-left: 0;
+    }
+    .row-back span{
+        text-align: center;
+    }
+    .row-back .a-box{
+        float: left;
+        width: 25%;
+        background-color: rgb(34, 29, 85);
+    }
+    .row-back .search-box{
+        float: right;
+    }
+    /*mid*/
+    .mid-box0 h3{
+        font-size: 15px;
+    }
+    .mid-right-box{
+        margin-left: 15px;
+    }
+    .mid-label0{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .mid-label{
+        border: 1px solid lightblue;
+        border-radius: 2px;
+        height: 30px;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .mid-label1{
+        border-left: 1px solid lightblue;
+        height: 30px;
+        width: 100%;
+        padding: 0;
+    }
+    
+    /*foot*/
+    .row-back1{
+        margin-left: 0;
+    }
+    .row-back1 h5{
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+    }
+    .row-back1 p{
+        text-align: center;
+        color: white;
+        font-size: 10px;
+    }
+}
 .row:nth-child(1) span{
     display: block;
     height: 50px;
@@ -60,12 +116,12 @@
 }    
 .row-back{
     height: 50px;
-    width: 1280px;
+    width: 100%;
     background-color: rgb(34, 29, 85);
 }
 .row-back1{
     height: 150px;
-    width: 1280px;
+    width: 100%;
     background-color: rgb(34, 29, 85);
 }
 
@@ -99,15 +155,16 @@ a:hover{
 .pic{
     margin-top: 10px;
 }
-.art h3{
+.art h4{
     color: black;
 }
 .art p{
     color: #cccccc;
-    width: 600px;
+    width: 90%;
     overflow: hidden;
-    font-size: 20px;
+    font-size: 12px;
 }
+
 .mid-label0{
     margin-top: 5px;
     margin-bottom: 5px;
@@ -116,14 +173,13 @@ a:hover{
     border: 1px solid lightblue;
     border-radius: 2px;
     height: 30px;
-    text-align: center;
     padding: 0;
 }
 .mid-label1{
     border-left: 1px solid lightblue;
+    border-radius: 2px;
     height: 30px;
     padding: 0;
-    border-radius: 2px;
 }
 
 
@@ -132,7 +188,7 @@ a:hover{
 .QR{
     height: 80px;
     width: 80px;
-    margin-left: 150px;
+    margin-left: 35%;
     margin-top: 35px;
 }
 .QR img{
@@ -141,12 +197,11 @@ a:hover{
 }
 .row-back1 h5{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     color: white;
 }
 .row-back1 p{
     text-align: center;
     color: white;
 }
-
 

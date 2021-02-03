@@ -2,9 +2,51 @@
 @media screen and (min-width:1280px){
     .container {
         width: 1280px;
-        
     }   
-   }
+}
+@media screen and (max-width:991px){
+    /*head*/
+    .row-back{
+        margin-left: 0;
+    }
+    .row-back span{
+        text-align: center;
+    }
+    .row-back .a-box{
+        float: left;
+        width: 25%;
+        background-color: rgb(34, 29, 85);
+    }
+    .row-back .search-box{
+        float: right;
+    }
+    /*mid*/
+    .mid-right-box{
+        margin-left: 15px;
+    }
+    /*foot*/
+    .row-back1{
+        margin-left: 0;
+    }
+    .row-back1 h5{
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+    }
+    .row-back1 p{
+        text-align: center;
+        color: white;
+        font-size: 10px;
+    }
+    .art h4{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:767px){
+    .art h4{
+        font-size: 10px;
+    }
+}
 .row:nth-child(1) span{
     display: block;
     height: 50px;
@@ -60,12 +102,12 @@
 }    
 .row-back{
     height: 50px;
-    width: 1280px;
+    width: 100%;
     background-color: rgb(34, 29, 85);
 }
 .row-back1{
     height: 150px;
-    width: 1280px;
+    width: 100%;
     background-color: rgb(34, 29, 85);
 }
 
@@ -101,7 +143,7 @@
 a:hover{
     text-decoration: none;
 }
-.art h3{
+.art h4{
     color: black;
 }
 .butt-box{
@@ -130,7 +172,7 @@ a:hover{
 .QR{
     height: 80px;
     width: 80px;
-    margin-left: 150px;
+    margin-left: 35%;
     margin-top: 35px;
 }
 .QR img{
@@ -139,7 +181,7 @@ a:hover{
 }
 .row-back1 h5{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     color: white;
 }
 .row-back1 p{

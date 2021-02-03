@@ -5,6 +5,41 @@
         
     }   
    }
+@media screen and (max-width:991px){
+    /*head*/
+    .row-back{
+        margin-left: 0;
+    }
+    .row-back span{
+        text-align: center;
+    }
+    .row-back .a-box{
+        float: left;
+        width: 25%;
+        background-color: rgb(34, 29, 85);
+    }
+    .row-back .search-box{
+        float: right;
+    }
+    /*mid*/
+    .mid-right-box{
+        margin-left: 15px;
+    }
+    /*foot*/
+    .row-back1{
+        margin-left: 0;
+    }
+    .row-back1 h5{
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+    }
+    .row-back1 p{
+        text-align: center;
+        color: white;
+        font-size: 10px;
+    }
+}
 .row:nth-child(1) span{
     display: block;
     height: 50px;
@@ -60,12 +95,12 @@
 }    
 .row-back{
     height: 50px;
-    width: 1280px;
+    width: 100%;
     background-color: rgb(34, 29, 85);
 }
 .row-back1{
     height: 150px;
-    width: 1280px;
+    width: 100%;
     background-color: rgb(34, 29, 85);
 }
 
@@ -75,6 +110,7 @@
     margin-bottom: 100px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    width: 80%;
 }
 .mid-art{
     border-bottom: 1px solid #ccc;
@@ -191,7 +227,7 @@
 .QR{
     height: 80px;
     width: 80px;
-    margin-left: 150px;
+    margin-left: 35%;
     margin-top: 35px;
 }
 .QR img{
@@ -200,7 +236,7 @@
 }
 .row-back1 h5{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     color: white;
 }
 .row-back1 p{
