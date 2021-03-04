@@ -1,0 +1,26 @@
+.header{
+  width: 100%;
+  height: 90rpx;
+}
+.hdCon{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  padding: 0 26rpx;
+}
+.hdCon .logo,.hdCon .kefu{
+  height: 50rpx;
+}
+.hdCon .HdPic{
+  height: 100%;
+}
+.kefu{
+  position: relative;
+  animation: dh linear 1s infinite alternate;
+}
+.kefu .btn{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}

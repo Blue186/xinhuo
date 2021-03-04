@@ -1,0 +1,27 @@
+.pubTitle{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 50rpx;
+  margin-bottom: 40rpx;
+  line-height: 50rpx;
+}
+.pubTitle .txt{
+  font-size: 30rpx;
+  padding-left: 15rpx;
+}
+.pubTitle .txt::before{
+  display: block;
+  width: 6rpx;
+  height: 30rpx;
+  background-color: #d80b07;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -15rpx;
+}
+.pubTitle .more{
+  font-size: 30rpx;
+  color: #666;
+}

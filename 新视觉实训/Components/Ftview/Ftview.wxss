@@ -1,0 +1,12 @@
+.footer{
+  padding: 30rpx 0;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+.footer .pic{
+  width: 180rpx;
+}
+.footer .txt{
+  font-size: 20rpx;
+  color: #666;
+}

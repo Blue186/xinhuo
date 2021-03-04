@@ -1,0 +1,95 @@
+
+.banner{
+  width: 100%;
+}
+.banner image{
+  width: 100%;
+  display: block;
+}
+.psBox{
+  padding: 60rpx 0;
+  background-color: #1c356e;
+}
+.psBox:nth-child(2n){
+  background-color: #fff;
+}
+.psBoxTit{
+  width: 475rpx;
+  height: 70rpx;
+  background-color: #de2e05;
+  border-radius: 70rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 70rpx;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 30rpx;
+}
+.psBoxTit::before{
+  display: block;
+  content: "";
+  width: 100%;
+  height: 70rpx;
+  border: 2px dotted #de2e05;
+  border-radius: 70rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  transform: scale(1.03,1.2);
+}
+.psBoxCon .pic{
+  width: 100%;
+}
+.psBoxCon .text{
+  padding: 40rpx 26rpx 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.psBoxCon .text view{
+  width: 50%;
+  font-size: 26rpx;
+  line-height: 1.8em;
+  position: relative;
+  padding-left: 15rpx;
+  box-sizing: border-box;
+}
+.psBoxCon .text view::before{
+  content: "";
+  display: block;
+  width: 8rpx;
+  height: 8rpx;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -5rpx;
+}
+.psBox:nth-child(2n-1) .psBoxCon .text{
+  color: #fff;
+}
+.psBox:nth-child(2n-1) .text view::before{
+  background-color: #fff;
+}
+.psBoxConOne{
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.psBoxConOne .item{
+  text-align: center;
+  padding: 20rpx;
+}
+.psBoxConOne image{
+  width: 150rpx;
+  height: 150rpx;
+}
+.psBoxConOne .item view{
+  text-transform: uppercase;
+  font-size: 26rpx;
+  padding-top: 10rpx;
+}
+
+

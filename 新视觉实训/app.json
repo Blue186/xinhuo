@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/works/works",
+    "pages/dynamic/dynamic",
+    "pages/ps/ps"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    
+    "navigationBarTitleText": "新视觉实训",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#B6B6B6",
+    "selectedColor": "#FE9132",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-h.png"
+      },{
+        "pagePath": "pages/works/works",
+        "text": "作品",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-h.png"
+      },{
+        "pagePath": "pages/dynamic/dynamic",
+        "text": "动态",
+        "iconPath": "images/list.png",
+        "selectedIconPath": "images/list-h.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
